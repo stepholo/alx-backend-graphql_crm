@@ -31,14 +31,14 @@ Resolvers: Functions that fetch data for a particular query or mutation.
 Graphene-Django: A Python library that integrates GraphQL into Django seamlessly.
 
 ## Best Practices for Using GraphQL with Django
-|Area|	|Best Practice|
-|*Schema Design*|	|Keep schema clean and modular. Define reusable types and use clear naming.|
-|*Security*|	|Implement authentication and authorization in resolvers. Avoid exposing all data.|
-|*Error Handling*|	|Use custom error messages and handle exceptions gracefully in resolvers.|
-|*Pagination*|	|Implement pagination on large query sets to improve performance.|
-|*N+1 Problem*|	|Use tools like DjangoSelectRelatedField or graphene-django-optimizer|
-|*Testing*|	|Write unit tests for your queries and mutations to ensure correctness.|
-|*Documentation*|	|Use GraphiQL for automatic schema documentation and make it available to clients.|
+|Area|Best Practice|
+|*Schema Design*|Keep schema clean and modular. Define reusable types and use clear naming.|
+|*Security*|Implement authentication and authorization in resolvers. Avoid exposing all data.|
+|*Error Handling*|Use custom error messages and handle exceptions gracefully in resolvers.|
+|*Pagination*|Implement pagination on large query sets to improve performance.|
+|*N+1 Problem*|Use tools like DjangoSelectRelatedField or graphene-django-optimizer|
+|*Testing*|Write unit tests for your queries and mutations to ensure correctness.|
+|*Documentation*|Use GraphiQL for automatic schema documentation and make it available to clients.|
 
 ## Tools & Libraries
 graphene-django: Main library to integrate GraphQL in Django
