@@ -1,1 +1,1 @@
-0 2 * 0 ./mnt/c/Users/LENOVO/Desktop/alx_pro-dev/alx-backend-graphql_crm/crm/cron_jobs/clean_inactive_customers.sh >> /tmp/customer_cleanup_log.txt 2>&1
+0 2 * 0 0 ./mnt/c/Users/LENOVO/Desktop/alx_pro-dev/alx-backend-graphql_crm/crm/cron_jobs/clean_inactive_customers.sh >> /tmp/customer_cleanup_log.txt 2>&1
